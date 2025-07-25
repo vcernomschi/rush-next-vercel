@@ -12,6 +12,7 @@ type BlogPost = {
 const fetchPost = async (slugParts: string[]): Promise<BlogPost | null> => {
   // Dummy post data
   const DUMMY_POSTS: BlogPost[] = [
+    { slug: '', title: 'Home page', content: `Hello home pahe! ${new Date()}` },
     { slug: 'first-post', title: 'First Post', content: `Hello world! ${new Date()}` },
     { slug: 'nextjs/tips', title: 'Nested Tip', content: `ISR supports nested routes. ${new Date()}` },
   ];
