@@ -2,6 +2,8 @@
   "name": "@storefronts/a",
   "version": "0.1.0",
   "private": true,
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +13,8 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.2"
+    "next": "15.2.2",
+    "@shared/ui": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5",
