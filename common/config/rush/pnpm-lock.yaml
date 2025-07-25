@@ -46,9 +46,6 @@ importers:
 
   ../../@storefronts/a:
     dependencies:
-      '@shared/ui':
-        specifier: workspace:*
-        version: link:../../@shared/ui
       next:
         specifier: 15.2.2
         version: 15.2.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
